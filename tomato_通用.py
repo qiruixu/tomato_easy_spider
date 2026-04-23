@@ -369,9 +369,10 @@ dit_data = {
     '58682': '呢',
 }
 # 模拟浏览器
+"""用户自己输入，教程见使用说明"""
 headers = {
-    'Cookie':'s_v_web_id=verify_mo13hh2c_xUJZ7oM5_0N30_4ecB_9xny_rfSak9Q9teqh; novel_web_id=7629239380028868096; serial_uuid=7629239380028868096; serial_webid=7629239380028868096; Hm_lvt_2667d29c8e792e6fa9182c20a3013175=1776320702,1776924170; HMACCOUNT=AC8622FC82AA9B79; csrf_session_id=5b6c3ffba997eafab7358a0a1ded7e55; gfkadpd=2503,36144; passport_csrf_token=90c64f3916cb3d87c42ff2bab274dbe4; passport_csrf_token_default=90c64f3916cb3d87c42ff2bab274dbe4; passport_mfa_token=CjfaLQr3liWWz%2Bxw6e1avk4k6RsfxqnYiwUeuwETWLBiOxLsxhKAl3oWHu5LMdp6ICWIkTjkxPSqGkoKPAAAAAAAAAAAAABQVsh9LUcYeGk2iu325F3Bec5Pp5ESQKauA5qdZBsXdV7z3GHwkN6zD%2FJMviqOn2GmJxDbyI8OGPax0WwgAiIBA0xYswE%3D; d_ticket=def6bb081ab928318061381e91f799c922506; odin_tt=52a10ff30a8d9c7ff4e3fb53a13d9c5f1b5a1d8ddc0dca40838a2fc62c11a645faecfb2a959e7cd485659648253612efed42c1f30177b70c02a0f1c9ce174eac; n_mh=K-PNBE2bUpRQF4jm3FjNt4anI2hP3wwmhkjFaD-2k9g; passport_auth_status=3c001f1931c3589634b24e40623c1859%2C; passport_auth_status_ss=3c001f1931c3589634b24e40623c1859%2C; sid_guard=69f06d02d95cd9390b0889f00d1dca04%7C1776924437%7C5184000%7CMon%2C+22-Jun-2026+06%3A07%3A17+GMT; uid_tt=9dabcab8b52081dd7db1247c68279b14; uid_tt_ss=9dabcab8b52081dd7db1247c68279b14; sid_tt=69f06d02d95cd9390b0889f00d1dca04; sessionid=69f06d02d95cd9390b0889f00d1dca04; sessionid_ss=69f06d02d95cd9390b0889f00d1dca04; session_tlb_tag=sttt%7C3%7CafBtAtlc2TkLCInwDR3KBP_________Ax5XqDQydtMh0G7lgbq2X9UQnoklkHK5iPzTPAMwvN-s%3D; is_staff_user=false; has_biz_token=false; sid_ucp_v1=1.0.0-KGE4NGRmZDBjYTRiZjc0MzAxOTA4OTc3NWZmZDRkMzIwNTVjZmYyNzYKHwiE26DNtaz2BxCV7qbPBhjHEyAMMMe11skGOAJA8QcaAmxmIiA2OWYwNmQwMmQ5NWNkOTM5MGIwODg5ZjAwZDFkY2EwNA; ssid_ucp_v1=1.0.0-KGE4NGRmZDBjYTRiZjc0MzAxOTA4OTc3NWZmZDRkMzIwNTVjZmYyNzYKHwiE26DNtaz2BxCV7qbPBhjHEyAMMMe11skGOAJA8QcaAmxmIiA2OWYwNmQwMmQ5NWNkOTM5MGIwODg5ZjAwZDFkY2EwNA; Hm_lpvt_2667d29c8e792e6fa9182c20a3013175=1776929234; ttwid=1%7CFfgWPDal6kbvGTbYEpqQfjCkeNQWsstu8ueKoFvT43c%7C1776929234%7C45f7878c351ebdda1c5259d8b3876509d321998ce100a46079023a34f0b53f6f',
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'Cookie':'',
+    'User-Agent': ''
 }
 # url地址(请求网址)
 book_id = input("请输入书籍id：")
